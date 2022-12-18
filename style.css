@@ -1,11 +1,16 @@
 * {
   margin: 0;
   background-color: #0D0D0D;
+  /* text-align: center; */
 }
 
 h1, h2, h3, p, a {
   font-family: "Lucida Console", "Courier New", monospace;
   color: azure;
+}
+
+a {
+  text-decoration: none
 }
 
 .title {
@@ -36,6 +41,11 @@ h1, h2, h3, p, a {
   transform: translate(0px, 50vh)
 }
 
+.center {
+  text-align: center;
+}
+
+
 
 /* .center {
   transform: translate(0px, 105vw);
@@ -43,7 +53,3 @@ h1, h2, h3, p, a {
   align-items: center;
   text-align: center;
 } */
-
-.center {
-  text-align: center;
-}
