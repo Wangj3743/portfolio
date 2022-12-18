@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  background-color: #0D0D0D;
+}
+
+p, h1, h2 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: azure;
+}
+
+.titleLeft {
+  float: left; 
+  height: 100vh; 
+  width: 50%;
+  object-fit: cover;
+}
+
+.titleRight {
+  float: right; 
+  height: 100vh; 
+  width: 25%;
+  object-fit: cover;
+}
+
+
+.afterTitle {
+  transform: translate(0px, 100vh);
+}
