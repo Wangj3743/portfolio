@@ -18,11 +18,19 @@ p, h1, h2 {
 .titleRight {
   float: right; 
   height: 100vh; 
-  width: 25%;
+  width: 50%;
   object-fit: cover;
+  text-align: center;
+}
+
+.titleCenter {
+  transform: translate(0px, 50vh)
 }
 
 
-.afterTitle {
-  transform: translate(0px, 100vh);
+.center {
+  transform: translate(0px, 110vh);
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
