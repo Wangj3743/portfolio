@@ -5,7 +5,8 @@
 }
 
 h1, h2, h3, p, a {
-  font-family: "Lucida Console", "Courier New", monospace;
+  /* font-family: "Lucida Console", "Courier New", monospace; */
+  font-family: Helvetica, Sans-Serif;
   color: azure;
 }
 
