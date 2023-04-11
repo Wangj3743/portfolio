@@ -46,7 +46,14 @@ a {
   text-align: center;
 }
 
-
+.content {
+/* 	transform: translate(0px, vh); */
+/* 	top: 50px; */
+	position: absolute;
+	left: 0;
+	top: 0; 
+	transform: translate(0px, 110vh);
+}
 
 /* .center {
   transform: translate(0px, 105vw);
